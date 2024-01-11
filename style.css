@@ -11,6 +11,10 @@ body {
     align-items: center;
     height: 87vh;
 }
+.main-sec {
+    height: 75vh;
+}
+
 
 .form-signin {
     text-align: center;
@@ -43,3 +47,4 @@ body {
 .text-col {
     color: rgb(0, 0, 174);
 }
+
