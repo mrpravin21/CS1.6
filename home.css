@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: #140674; /* Dark Blue background color */
+}
+
+.navbar a.navbar-brand {
+        color: #ffffff; 
+        font-weight: bold;
+}
+#userDropdown{
+    color: white; 
+}
+
+#offcanvas-body a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+#offcanvas-body a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: transparent;
+    transition: background 1.5s;
+}
+
+#offcanvas-body a:hover::before {
+    background: rgba(2, 9, 218, 0.934);
+}
