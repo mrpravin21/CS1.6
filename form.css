@@ -1,0 +1,68 @@
+    h2{
+        text-align: center;
+    }
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(201, 201, 201);
+   }
+   
+   /* Form Styling */
+   form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+   }
+   
+   /* Background Image */
+   form {
+    
+    background-size: cover;
+    background-position: center;
+   }
+   
+   /* Label and Input Styling */
+   label {
+    display: block;
+    margin-top: 10px;
+   }
+   
+   input[type="text"], input[type="email"], input[type="date"], input[type="time"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+   
+   textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+   }
+   
+   /* Submit Button */
+   input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+   }
+   
+   input[type="submit"]:hover {
+    background-color: #45a049;
+   }
