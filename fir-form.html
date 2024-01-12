@@ -29,7 +29,7 @@
                 <input type="name"placeholder="तपाईको पुरा नाम राख्नुहोस् " required>
 
                 <label for="">Address ठेगाना: </label>
-                <input type="address"placeholder="तपाईको फोन नम्बर राख्नुहोस्" required>
+                <input type="address"placeholder="तपाईको पुरा ठेगाना राख्नुहोस्" required>
                 <br>
                 <label for="">Date of Birth जन्म मिति: </label>
                 <input type="text"placeholder="वर्ष - महिना - दिन" required>
@@ -47,7 +47,7 @@
                 <input type="name"placeholder="तपाईको पुरा नाम राख्नुहोस् ">
 
                 <label for="">Address ठेगाना: </label>
-                <input type="address"placeholder="तपाईको फोन नम्बर राख्नुहोस्" >
+                <input type="address"placeholder="तपाईको पुरा ठेगाना राख्नुहोस्" >
                 <br>
                 <label for="">Offender's Father/Mother Name कसूर गर्ने ब्यक्तिको बाबु/आमाको नामः</label>
                 <input type="name"placeholder="पुरा नाम राख्नुहोस् ">
@@ -94,21 +94,9 @@
                     </div>
                 </div>
             <br>        
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" style="width: 12%;">
            </div>
         </div>
     </form>
-
-    <script>
-        var inputElement = document.querySelector('input');
-
-        inputElement.addEventListener('focus', function() {
-            this.classList.add('highlight-border');
-        });
-
-        inputElement.addEventListener('blur', function() {
-            this.classList.remove('highlight-border');
-        });
-    </script>
 </body>
 </html>
